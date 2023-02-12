@@ -4,5 +4,5 @@ public class Subject {
 
     String subjectName;
     int score;
-    int subjetId;
+    int subjectId;
 }
