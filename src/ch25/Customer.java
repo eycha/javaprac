@@ -8,7 +8,10 @@ public class Customer {
     int bonusPoint;
     double bonusdRatio;
 
-    public Customer() {
+    public Customer(int customerID, String customerName) {
+        this.customerID = customerID;
+        this.customerName = customerName;
+
         customerGrade = "SILVER";
         bonusdRatio = 0.01;
     }
